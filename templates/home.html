@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+{% block content %}
+
+<div>
+
+</div>
+<br><br>
+<div>
+<p>
+<table id="scripts">
+  <tr>
+    <th id="column1">Link</th><th>Description</th>
+    <tr><td id="column1">RattersByMain.py</td><td>This calculates all ratting done for the last 30 days and extrapolates the tax per character, it then groups by main character and posts the output to slack.</td></tr>
+    <tr><td id="column1">RattersByIndividual.py</td><td>This calculates all ratting done for the last 30 days and extrapolates the tax per character, it lists by individual and prints the output to slack.</td></tr>
+    <tr><td id="column1">FactionRatters.py</td><td>This calculates all ratting done for the last 30 days and pulls the Faction, Dread, Super or Titan spawns out by individual character and prints the output to slack.</td></tr>      
+  </tr>
+</table>
+
+</p>
+</div>
+
+{% endblock content %}
+
