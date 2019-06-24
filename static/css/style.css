@@ -1,0 +1,123 @@
+html{
+    background-color: darkgray; /*alternatively try light gray*/
+}
+
+#logo {
+    float: left;    
+    padding: 10px 10px;
+}
+
+/* Headings */
+h1 {
+    color: White;
+    background-color: black;
+    height: 81px;
+    padding-top: 10px;
+    padding-bottom: 65px;
+    padding-right: 100px;
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top: -30px;
+}
+
+
+#header-title{
+
+text-align: right;
+font-family: Arial;
+font-size: 40px;
+font-weight: bold;
+}
+
+
+h2{
+    font-family: sans-serif;
+    color: #076E7B;
+    font-size: 17px;
+}
+
+/* Navigation Items*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+    margin-top:-68px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li {
+    float: left;
+}
+
+/* Buttons */
+li a {
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: sans-serif;   
+}
+
+li a:hover { /* Change the link color to #111 (gray) on hover */
+    background-color: gray;
+}
+
+table {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    border: 2px solid rgb(80, 80, 80);
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10%; 
+    width: 20%;  
+    float: right;
+ }
+
+ #scripts {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    border: 2px solid rgb(80, 80, 80);
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 0%; 
+    margin-right: 15%;
+    width: 70%;
+
+ }
+
+  /* Cells */
+ table td {
+    text-align: left; 
+ }
+  /* Row Colouring */
+table tr:nth-child(even){    background-color: white;}
+table tr:nth-child(2n+3){    background-color: #d9d9d9;} /* 2n+3 = every second number, starting from 3 */
+
+
+ /* Headings */
+table th {
+    column-span: all;
+    text-align: left;
+}
+
+/* Table Columns */
+#column1{
+
+  width: 150px;
+  padding-right: 25px;
+}
+
+#column2 {
+
+}
+
+#headers {
+  width: 20%;
+
+
+}
